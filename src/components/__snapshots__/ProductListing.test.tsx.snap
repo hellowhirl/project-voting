@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="product-listing"
+>
+  <div
+    className="product-image"
+  >
+    <img
+      src="images/products/image-aqua.png"
+    />
+  </div>
+  <div
+    className="product-details"
+  >
+    <div
+      className="votes-container"
+    >
+      <img
+        alt="arrow-icon-1"
+        onClick={[Function]}
+        src="./images/ui/arrow.png"
+      />
+      <div
+        className="votes"
+        data-testid="voteId-1"
+        role="vote-count"
+      >
+        12
+      </div>
+    </div>
+    <a
+      href="#"
+    >
+      <div
+        className="title"
+      >
+        Yellow Pail
+      </div>
+    </a>
+    <div
+      className="description"
+    >
+      On-demand sand castle construction expertise.
+    </div>
+    <div
+      className="submitted-container"
+    >
+      <p>
+        Submitted by:
+      </p>
+      <div
+        className="avatar-cropper"
+      >
+        <img
+          src="images/avatars/daniel.jpg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,96 @@
+.App {
+  max-width: 600px;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+h1 {
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #c4c4c4;
+  text-align: center;
+}
+
+.product-listing {
+  display: flex;
+  padding: 8px 0;
+  animation: fadein 1.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+.votes-container {
+  display: flex;
+  align-items: center;
+}
+
+.votes-container img {
+  cursor: pointer;
+  width: 40px;
+  filter: invert(28%) sepia(100%) hue-rotate(-180deg) saturate(10);
+}
+
+.votes {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.product-details a {
+  text-decoration: none;
+}
+
+.title {
+  padding-bottom: 2px;
+  font-weight: 600;
+  color: #2774c2;
+}
+
+.product-image img {
+  width: 120px;
+  padding-right: 24px;
+}
+
+.submitted-container {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.submitted-container p {
+  font-weight: 500;
+  font-size: 15px;
+  color: #808080;
+}
+
+.avatar-cropper {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin-left: 6px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.avatar-cropper img {
+  display: inline;
+  width: auto;
+  height: 100%;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
